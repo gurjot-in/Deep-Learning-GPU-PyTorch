@@ -87,9 +87,9 @@ class ConvNet(object):
     pool_param = {'pool_height': 2, 'pool_width': 2, 'stride': 2}
 
     if y is None:
-        dropout_param = {'p':0.8, 'mode':'test', 'seed':42}
+        dropout_param = {'p':0.85, 'mode':'test', 'seed':42}
     else:
-        dropout_param = {'p':0.8, 'mode':'train', 'seed':42}
+        dropout_param = {'p':0.83, 'mode':'train', 'seed':42}
 
     running_mean = np.zeros((1, self.hidden_dim))
     running_var = np.zeros((1, self.hidden_dim))
