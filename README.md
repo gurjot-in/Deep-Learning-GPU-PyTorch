@@ -13,3 +13,6 @@
 	# RNN_LSTM NLP: contains numpy code on backpropgation over simple layers like multi-step RNN, multi-step LSTM for applications like image-captioning(written from scratch) and sentiment classification using torchtext and Pytorch
 	# Generative models: Contains code for Conditional VAE, GANs and siamese network
 	# Reinformcement Learning: Algorithms implemented include A2C, REINFORCE and DQN for cartpole problem.
+
+# References Used
+- https://towardsdatascience.com/what-is-pytorch-a84e4559f0e3?gi=b9da38405f06
