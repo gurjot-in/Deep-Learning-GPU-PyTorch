@@ -168,7 +168,7 @@ def main():
     use_cuda = False
     input_size = 28 * 28
     units = 400
-    batch_size = 32
+    batch_size = 40
     latent_size = 20 # z dim
     num_classes = 10
     num_epochs = 11
